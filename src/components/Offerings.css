@@ -1,0 +1,55 @@
+/* Offerings.css */
+
+.offerings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f8f9fa;
+    text-align: center;
+    background-image: url(https://bcdn.mindler.com/bloglive/wp-content/uploads/2024/08/08123347/WhatsApp-Image-2024-08-08-at-12.15.01-PM.jpeg);
+    background-color: #8eabc8; /* Light background color */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.offerings-container h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.offerings-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.offerings-container li {
+    display: flex;
+    align-items: center; /* Align image and text vertically */
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 100%;
+    max-width: 800px;
+}
+
+.offerings-container li img.offering-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%; /* Circular images */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.offerings-container li:hover {
+    transform: translateY(-2px);
+}

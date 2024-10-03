@@ -1,0 +1,72 @@
+/* Blog.css */
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 40px;
+  background-image: url(https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/09/25163007/Career-assessment.jpg);
+    background-color: #8eabc8; /* Light background color */
+    background-repeat: no-repeat;
+    padding: 25px;
+    background-attachment: fixed;
+    background-position: center; 
+    background-origin: content-box;
+  text-align: center;
+}
+
+.blog-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.blog-container ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+.blog-container li {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+/* Style for the images in each blog post */
+.blog-container li img.blog-image {
+  width: 100%;
+  max-width: 200px; /* Max width for images */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-container li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.blog-container h3 {
+  margin: 10px 0 5px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.blog-container p {
+  font-size: 1rem;
+  color:#333 ;
+}

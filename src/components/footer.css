@@ -1,0 +1,39 @@
+/* App.css or the CSS file where you handle the layout */
+
+html, body {
+    height: 100%; /* Ensure body and html take full height */
+    margin: 0; /* Remove default margin */
+}
+
+.wrapper {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Arrange children in a column */
+    min-height: 100vh; /* Minimum height of 100% of viewport height */
+}
+
+main {
+    flex: 1; /* Take up available space */
+}
+
+/* You can also include the footer styles here or import from footer.css */
+.footer-container {
+    background-color: #282c34; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center-align text */
+}
+
+.footer-content {
+    max-width: 1200px; /* Limit the max width */
+    margin: 0 auto; /* Center the footer content */
+}
+
+.footer-content a {
+    color: #61dafb; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Space between links */
+}
+
+.footer-content a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
